@@ -5,4 +5,9 @@ body {
 h1 {
     font-family: "borax-variable", sans-serif;
 font-variation-settings: "wght" 400;
+font-size: 5em;
+}
+
+nav {
+  text-align: center;
 }
