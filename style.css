@@ -1,34 +1,66 @@
+/* === GENERAL STYLES === */
+
 body {
     background-image: url(imgs/more-leaves.png);
+    font-family: 'proxima-nova', sans-serif;
 }
 
 h1 {
     font-family: "borax-variable", sans-serif;
-font-variation-settings: "wght" 400;
-font-size: 5em;
+    font-variation-settings: "wght" 400;
+    font-size: 5em;
+    margin-bottom: 1rem;
 }
 
 h2 {
     font-family: "borax-variable", sans-serif;
-font-variation-settings: "wght" 400;
-font-size: 5em;
+    font-variation-settings: "wght" 400;
+    font-size: 2em;
+    margin-bottom: 1rem;
 }
+
 p {
     font-family: "borax-variable", sans-serif;
-font-variation-settings: "wght" 400;
-font-size: 2em;
+    font-variation-settings: "wght" 400;
+    font-size: 2em;
+    color: white;
 }
 
-nav {
-  text-align: center;
-}
+
 
 img {
-  opacity: 100%;
-  transition: 1s;
+    opacity: 100%;
+    transition: opacity 1s;
 }
 
 img:hover {
-  opacity: 50%;
-  transition: 1s;
+    opacity: 50%;
+    transition: opacity 1s;
+}
+
+
+nav {
+    text-align: center;
+}
+
+
+
+.custom-section {
+    padding: 3rem 1rem;
+    border-radius: 8px;
+}
+
+.custom-bg-color {
+    background-color: #ce1141; /* Your custom red tone */
+    color: white;
+}
+
+
+/* === FOOTER === */
+
+footer {
+    padding: 2rem 0;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
 }
