@@ -3,6 +3,7 @@
 body {
     background-image: url(imgs/more-leaves.png);
     font-family: 'proxima-nova', sans-serif;
+    background-attachment: fixed;
 }
 
 h1 {
