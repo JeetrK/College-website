@@ -1,67 +1,68 @@
-/* === GENERAL STYLES === */
-
 body {
-    background-image: url(imgs/more-leaves.png);
-    font-family: 'proxima-nova', sans-serif;
-    background-attachment: fixed;
+  background-image: url(imgs/more-leaves.png);
+  font-family: 'proxima-nova', sans-serif;
+  background-attachment: fixed;
+}
+
+h1, h2, p {
+  font-family: "borax-variable", sans-serif;
+  font-variation-settings: "wght" 400;
 }
 
 h1 {
-    font-family: "borax-variable", sans-serif;
-    font-variation-settings: "wght" 400;
-    font-size: 5em;
-    margin-bottom: 1rem;
+  font-size: 5em;
+  margin-bottom: 1rem;
 }
 
 h2 {
-    font-family: "borax-variable", sans-serif;
-    font-variation-settings: "wght" 400;
-    font-size: 2em;
-    margin-bottom: 1rem;
+  font-size: 2em;
+  margin-bottom: 1rem;
 }
 
 p {
-    font-family: "borax-variable", sans-serif;
-    font-variation-settings: "wght" 400;
-    font-size: 2em;
-    color: white;
+  font-size: 1.25em;
+  color: white;
 }
 
-
-
 img {
-    opacity: 100%;
-    transition: opacity 1s;
+  opacity: 100%;
+  transition: opacity 1s;
 }
 
 img:hover {
-    opacity: 50%;
-    transition: opacity 1s;
+  opacity: 70%;
+  transition: opacity 1s;
 }
-
 
 nav {
-    text-align: center;
+  text-align: center;
 }
 
-
-
 .custom-section {
-    padding: 3rem 1rem;
-    border-radius: 8px;
+  padding: 3rem 1rem;
+  border-radius: 8px;
 }
 
 .custom-bg-color {
-    background-color: #ce1141; /* Your custom red tone */
-    color: white;
+  background-color: #ce1141;
+  color: white;
 }
 
-
-/* === FOOTER === */
-
 footer {
-    padding: 2rem 0;
-    background-color: #343a40;
-    color: white;
-    text-align: center;
+  padding: 2rem 0;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}
+
+/* Fade-in effect for sections */
+.fade-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-in-out;
+}
+
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
